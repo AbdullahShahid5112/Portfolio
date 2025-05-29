@@ -26,13 +26,13 @@ export function Header() {
 
   return (
     <header
-      className={`fixed top-0 w-full z-50 transition-all duration-300 ${
+      className={`fixed top-0 w-full z-50 transition-all duration-300 bg-white/95  ${
         isScrolled ? "bg-white/95 backdrop-blur-md border-b border-purple-200 shadow-lg" : "bg-transparent"
       }`}
     >
       <div className="container mx-auto px-4 py-4">
         <nav className="flex items-center justify-between">
-          <div className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+          <div className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text ">
             Abdullah Shahid
           </div>
 
